@@ -1,0 +1,40 @@
+.form-card {
+  max-width: 680px;
+}
+
+.measure-form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 1.125rem;
+  margin-bottom: 1.5rem;
+}
+
+.field-unit {
+  font-weight: 400;
+  color: #aaa;
+}
+
+.form-actions {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.btn-ghost {
+  background: transparent;
+  color: #666;
+  border: 1.5px solid #ddd;
+  padding: 0.65rem 1.125rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-family: system-ui, sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.btn-ghost:hover {
+  border-color: #aaa;
+  color: #333;
+}
